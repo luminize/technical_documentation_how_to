@@ -4,3 +4,4 @@ This chapter will give you instructions on how to use the described tools. You a
 
 - [Git](./usage/Git.md)
 - [PlantUML](./usage/PlantUML.md)
+- [mdBook](./usage/mdBook.md)
