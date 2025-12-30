@@ -1,0 +1,14 @@
+services:
+  mkdocs:
+    depends_on: 
+      puml:
+          condition: service_started
+    image: mkdocs-material-plantuml:1.1
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./:/docs
+  puml:
+    image: plantuml/plantuml-server
+    ports:
+      - "8080:8080"
