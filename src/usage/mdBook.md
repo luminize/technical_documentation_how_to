@@ -9,5 +9,4 @@ Installation of [mdBook and the mdbook-diagram](../tools/mdBook.md) plugin must 
 - start serving by typing `mdbook-serve`
   ![](mdbook-serve.gif)
 - Go to [your local mdBook server](http://localhost:3000/usage/mdBook.html)
-- If you see this line appear after clicking the link above ... Congratulations, you've got everything working on your local setup!
   
