@@ -13,7 +13,7 @@ More exact info will follow on a way that this process _can_ work. But for start
   ```
   git clone https://github.com/your_user_name/technical_documentation_how_to.git
   ```
-  ![](images/powershell_git_clone.png)
+  ![](../images/powershell_git_clone.png)
 - Move into the newly created directory, and open the directory with `VS Code` or open the folder from within `VS Code`
   
   ![open_repository_with_vscode](open_repository.png)
