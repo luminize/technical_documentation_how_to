@@ -2,7 +2,7 @@
 
 Here are 3 ways of creating a local repository:
 
-1. From your github account: After creating the repo, clone the repo to your local disk [Forking a repository](./usage/Git.md)
+1. From your github account: After creating the repo, clone the repo to your local disk [Forking a repository](../usage/Git.md)
   ![Create a repository from Github](new_repository.png)
 
 2. Initialize an empty folder via the console by the command `git init`
