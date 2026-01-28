@@ -1,0 +1,47 @@
+site_name: MkDocs with PlantUML -> Technical documentation
+docs_dir: 'src'
+nav: 
+  - Introduction:
+    - Introduction: Introduction.md
+    - Example diagram code: code_example.md
+    - Advantages: advantages.md
+    - This guide...: this_guide.md
+  - Tools:
+    - Tools: Tools.md
+    - Git: ./tools/Git.md
+    - Docker: ./tools/Docker.md
+    - PlantUML server: ./tools/PlantUMLserver.md
+    - Visual Studio Code: ./tools/VSCode.md
+    - mdBook: ./tools/mdBook.md
+  - Usage:
+    - Usage: Usage.md
+    - Git clone: ./usage/Git.md
+    - PlantUML render example: ./usage/PlantUML.md
+    - mdBook: ./usage/mdBook.md
+theme:
+  name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+  # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+plugins:
+  - plantuml:
+      puml_url: http://puml:8080
+      puml_keyword: plantuml
+      theme:
+        light: material/indigo-light
+        dark: material/indigo-dark
